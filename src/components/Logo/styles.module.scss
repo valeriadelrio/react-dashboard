@@ -1,0 +1,17 @@
+.logo {
+  background-color: rgb(120, 120, 196);
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  .icon svg {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+  .name {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,29 @@
+.breadcrumb {
+  color: black;
+}
+
+.table {
+  margin: 24px;
+}
+.actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .icon {
+    cursor: pointer;
+  }
+}
+
+.header-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 24px;
+  .search {
+    margin: 0 24px
+  }
+  .btn {
+    margin-right: 24px;
+  }
+}
+

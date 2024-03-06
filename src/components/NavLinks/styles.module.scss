@@ -1,0 +1,26 @@
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: fit-content;
+  line-height: 24px;
+  color: black;
+  margin: 8px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding-left: 24px;
+
+  .name {
+    font-size: 18px;
+    margin-left: 8px;
+  }
+}
+
+.active {
+  color: rgb(31, 31, 216);
+  background-color: rgb(168, 171, 172);
+  margin: 8px;
+  border-radius: 10px;
+
+
+}
